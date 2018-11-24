@@ -18,7 +18,6 @@ var gasPrice = {
  supperPrice: supper
 };
 
-
 function Car(make, model, year, mileage, level, tank){
     this.make = make;
     this.model = model;
