@@ -2,13 +2,11 @@ var newArray = [];
 var min = parseInt(prompt("Enter the minimum mileage"));
 var max = parseInt(prompt("Enter the maximum mileage"));
 
-
 for(var i = 0; i < 4; i++){
      
     newArray.push(Math.round((Math.random()*(max-min)+min)));
 }
 console.log(newArray);
-
 
  var regular = parseInt(prompt("Enter a price for the regular gas"));
  var premium = parseInt(prompt("Enter a price for the premium gas"));
